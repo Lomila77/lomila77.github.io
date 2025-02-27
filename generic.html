@@ -21,7 +21,6 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="generic.html" class="active">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -33,7 +32,7 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">Mon parcours professionnel</h1>
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/parcours.png" alt="" /></span>
 
 							<p>J'ai commencé mon parcours par une formation militaire de deux ans avant de reprendre mes études et d'intégrer l'école 42 Paris.</p>
 
@@ -46,13 +45,13 @@
 								<li>Prendre le temps d'acquérir des compétences approfondies sur des sujets variés</li>
 							</ul>
 
-							<p>J’ai eu l’opportunité de travailler pour de grandes entreprises dans le domaine de la recherche et du machine learning, notamment en tant que chercheuse et software engineer. Ces expériences me permette d'avoir une expertise en programmation et une compréhension profonde de l'IA.</p>
+							<p>J’ai eu l’opportunité de travailler pour de grandes entreprises dans le domaine de la recherche et du machine learning, notamment en tant que chercheuse et software engineer. Ces expériences me permettent d'avoir une expertise en programmation et une compréhension profonde de l'IA.</p>
 
 							<p>J’ai développé une double compétence en recherche et en code, me permettant d’être autonome dans ma réflexion et d’intégrer de manière durable et optimisée l’IA dans vos projets.</p>
 
 							---
 
-							<h2>Expériences professionnelles</h2>
+							<h2 id="job">Expériences professionnelles</h2>
 
 							<h3>🔹 R&D Engineer - (2024 - 2025)</h3>
 							<ul>
@@ -83,6 +82,54 @@
 								<li>🇨🇳 **Mandarin** – B1 (Intermédiaire)</li>
 							</ul>
 
+						</div>
+						<div class="inner">
+							<h2 id="project">Mes projets : </h2>
+							<div style="display: flex; flex-direction: column; gap: 4rem;">
+								<div>
+									<h3>LaijaAI</h3>
+									<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 4rem;">
+										<img src="./images/laija-ai.png" height="45%" width="45%" style="border-radius: 3%;">
+										<div>
+											<p>LaijaAI est un assistant qui génère un personnage.</p>
+											<p>Donnez-lui une backstory, un caractère et elle l'interprétera avec justesse !</p>
+											<ul>
+												<label>➡ Stack Technique:</label>
+												<li>Frontend: React</li>
+												<li>Backend: Django</li>
+												<li>API AI: FastAPI</li>
+												<li>DB: </li>
+												<li>Containérisation: Docker</li>
+											</ul>
+											<a href="https://gitlab.com/lucarance/laijaai">Repo Github</a>
+										</div>
+									</div>
+								</div>
+								<div>
+									<h3>Pong Online</h3>
+                                    <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 2rem;">
+                                        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 2rem; width: 45%;">
+											<iframe style="border-radius: 3%;" width="560" height="315" src="https://www.youtube.com/embed/WifoGhKbNn4?si=dRIRVlxF_7kI9lXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+											<img src="./images/jeux-pong.png" width="560" height="315" style="border-radius: 3%;">
+										</div>
+                                        <div style="width: 50%; padding-left: 1rem;">
+                                            <p>Pong Online est un website qui permet de faire des parties de pongs en ligne.</p>
+                                            <p>Il dispose egalement d'une messagerie instantane.</p>
+                                            <ul>
+                                                <label>➡ Stack Technique:</label>
+                                                <li>Frontend: React</li>
+                                                <li>Backend: NestJS</li>
+                                                <li>DB: Postgres</li>
+                                                <li>Containérisation: Docker Compose</li>
+                                                <li>Authentification: 2FA</li>
+                                            </ul>
+                                            <p>Pour la partie pong et la messagerie instantane, le protocole utilise est websocket</p>
+                                            <p>Pour le reste, c'est REST API.</p>
+                                        </div>
+                                    </div>
+                                    <a href="https://gitlab.com/lucarance/laijaai">Repo Github</a>
+								</div>
+							</div>
 						</div>
 					</section>
 
