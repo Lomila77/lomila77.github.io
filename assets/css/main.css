@@ -2559,6 +2559,7 @@ input, select, textarea {
 					color: #953d75;
 				}
 
+
 /* Image */
 
 	.image {
@@ -3245,6 +3246,10 @@ input, select, textarea {
 
 		.wrapper.style1-alt {
 			background-color: #493382;
+		}
+
+		.wrapper.style1-dark {
+			background-color: #312450;
 		}
 
 		.wrapper.style2 {

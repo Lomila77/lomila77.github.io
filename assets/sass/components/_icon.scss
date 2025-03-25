@@ -53,6 +53,10 @@
 					color: _palette(accent1-alt);
 				}
 
+				.wrapper.style1-dark & {
+					color: _palette(accent1-alt);
+				}
+
 				.wrapper.style2 & {
 					color: _palette(accent2);
 				}

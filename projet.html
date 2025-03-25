@@ -28,19 +28,27 @@
 			</header>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper ">
 
 				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 id="project">Mes projets : </h2>
-							<div style="display: flex; flex-direction: column; gap: 4rem;">
-								<div>
-									<h2>LaijaAI</h2>
-                                    <br>
-									<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 4rem;">
-										<img src="./images/laija-ai.png" height="45%" width="45%" style="border-radius: 3%;">
-										<div>
+					<div id="main" class="wrapper">
+						<section class="wrapper style1-dark">
+							<div class="inner">
+								<h1>Mes projets :</h1>
+								<br>
+							</div>
+						</section>
+						<section class="wrapper style1-dark">
+							<section style="margin: 2%; padding: 2%;">
+								<div class="project-container" style="display: flex; flex-direction: row; gap: 2rem; flex-wrap: wrap;">
+									<div class="project-media" style="flex: 1 1 300px;">
+										<a class="images">
+											<img src="./images/laija-ai.png" width="100%" style="margin: 5px; max-width: 600px; border-radius: 3%;">
+										</a>
+									</div>
+									<div class="project-content" style="flex: 1 1 300px;">
+										<div class="inner">
+											<h2>LaijaAI</h2>
 											<p>LaijaAI est un assistant qui génère un personnage.</p>
 											<p>Donnez-lui une backstory, un caractère et elle l'interprétera avec justesse !</p>
 											<ul>
@@ -55,39 +63,64 @@
 										</div>
 									</div>
 								</div>
-                                <hr>
-								<div>
-									<h2>Pong Online</h2>
-                                    <br>
-                                    <div style="display: flex; flex-direction: row; align-items: flex-start; gap: 2rem;">
-                                        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 2rem; width: 45%;">
-											<iframe style="border-radius: 3%;" width="560" height="315" src="https://www.youtube.com/embed/WifoGhKbNn4?si=dRIRVlxF_7kI9lXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-											<img src="./images/jeux-pong.png" width="560" height="315" style="border-radius: 3%;">
+							</section>
+							<hr>
+							<section style="margin: 2%; padding: 2%;">
+								<div class="project-container" style="display: flex; flex-direction: row; gap: 2rem; flex-wrap: wrap;">
+									<div class="project-media" style="flex: 1 1 300px;">
+										<iframe style="gap: 2rem; border-radius: 3%; aspect-ratio: 16/9; width: 100%;" src="https://www.youtube.com/embed/WifoGhKbNn4?si=dRIRVlxF_7kI9lXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen data-position="center center"></iframe>
+										<img src="./images/jeux-pong.png" width="100%" class="images" style="gap: 2rem; border-radius: 3%; margin-top: 1rem;">
+									</div>
+									<div class="project-content" style="flex: 1 1 300px;">
+										<div class="inner">
+											<h2>Pong Online</h2>
+											<p>Pong Online est un website qui permet de faire des parties de pongs en ligne.</p>
+											<p>Il dispose egalement d'une messagerie instantane.</p>
+											<ul>
+												<label>➡ Stack Technique:</label>
+												<li>Frontend: React</li>
+												<li>Backend: NestJS</li>
+												<li>DB: Postgres</li>
+												<li>Containérisation: Docker Compose</li>
+												<li>Authentification: 2FA</li>
+											</ul>
+											<p>Pour la partie pong et la messagerie instantane, le protocole utilise est websocket</p>
+											<p>Pour le reste, c'est REST API.</p>
+											<a href="https://gitlab.com/lucarance/laijaai" class="button primary">Repo Github</a>
 										</div>
-                                        <div style="width: 50%; padding-left: 1rem;">
-                                            <p>Pong Online est un website qui permet de faire des parties de pongs en ligne.</p>
-                                            <p>Il dispose egalement d'une messagerie instantane.</p>
-                                            <ul>
-                                                <label>➡ Stack Technique:</label>
-                                                <li>Frontend: React</li>
-                                                <li>Backend: NestJS</li>
-                                                <li>DB: Postgres</li>
-                                                <li>Containérisation: Docker Compose</li>
-                                                <li>Authentification: 2FA</li>
-                                            </ul>
-                                            <p>Pour la partie pong et la messagerie instantane, le protocole utilise est websocket</p>
-                                            <p>Pour le reste, c'est REST API.</p>
-                                            <a href="https://gitlab.com/lucarance/laijaai" class="button primary">Repo Github</a>
-                                        </div>
-                                    </div>
+									</div>
 								</div>
-                                <hr>
-							</div>
-						</div>
-					</section>
-
+							</section>
+							<hr>
+							<section style="padding: 2%;">
+								<div class="project-container" style="display: flex; flex-direction: row; gap: 2rem; flex-wrap: wrap;">
+									<div class="project-media" style="flex: 1 1 300px;">
+										<iframe src="images/Tracing Neural Pathways in Political Tweet Classification using Mechanistic Interpretability.pdf" style="width: 100%; border: none; aspect-ratio: 1 / 1.414;"></iframe>
+									</div>
+									<div class="project-content" style="flex: 1 1 300px;">
+										<div class="inner">
+											<h2>Research: Neuronnal Pathway Coverage</h2>
+											<br>
+											<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 2rem;">
+												<div style="padding-left: 1rem;">
+													<p>Neuronnal Pathway Coverage est un projet de recherche réaliser dans le cadre d'un hackathon organisé par ApartResearch dans le domaine de l'AI Safety</p>
+													<p>Abstract:</p>
+													<p>Cet article explore l'interprétabilité mécanistique des grands modèles de langage (LLMs) en analysant la classification des tweets politiques. En utilisant Llama 3.3 70B, nous inférons l'alignement politique des utilisateurs (Pro-Biden, Pro-Trump ou Neutre) à partir de leurs tweets, descriptions et localisations. Nous appliquons ensuite le framework Goodfire pour extraire les features les plus activées correspondant à chaque classe. En ré-exécutant le modèle sur le même dataset tout en activant ces features extraites, nous analysons l'influence de ces activations neuronales sur la classification. Notre approche permet de mieux comprendre les chemins empruntés par le LLM lors de la classification, mettant en lumière les mécanismes internes liés aux biais politiques dans les prédictions du modèle. Nous validons nos résultats à l'aide de comparaisons de précision et de graphes de couverture des chemins neuronaux.</p>
+													<ul>
+														<label>➡ Stack Technique:</label>
+														<li>Langage: Python</li>
+														<li>API: Goodfire</li>
+													</ul>
+													<a href="https://gitlab.com/lucarance/laijaai" class="button primary">Repo Github</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</section>
+					</div>
 			</div>
-
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
